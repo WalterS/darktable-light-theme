@@ -16,6 +16,6 @@
     along with darktable.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-@import url("dark-icons.css");
-@import url("darktable-elegant-lightblue.css");
+@import "dark-icons.css";
+@import "darktable-elegant-lightblue.css";
 

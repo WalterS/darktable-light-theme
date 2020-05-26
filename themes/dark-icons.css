@@ -16,7 +16,7 @@
     along with darktable.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-@import url("./themes/darktable.css");
+@import "darktable.css";
 
 #iop-panel-icon-sharpen
 {

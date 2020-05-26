@@ -15,7 +15,7 @@
     You should have received a copy of the GNU General Public License
     along with darktable.  If not, see <http://www.gnu.org/licenses/>.
 */
-@import url("./themes/darktable-elegant-dark.css");
+@import "darktable-elegant-dark.css";
 
 @define-color blue_black #353b48 ;
 @define-color blue_blacker #2f3640;
