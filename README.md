@@ -2,10 +2,8 @@
 
 ## Usage
 
-1. Place **`themes`** and **`icons`** folders into Darktable's installation directory.
-2. (Optional) Place fonts in in **`poppins-font`** folder to ``~/.fonts` directory.
-
-
+1. Place the **`themes`** folder into Darktable's installation directory.
+2. (Optional) Place fonts in in **`poppins-font`** folder to `~/.fonts` directory.
 
 ## Screenshots
 
