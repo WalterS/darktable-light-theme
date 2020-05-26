@@ -1,4 +1,4 @@
-@import "darktable-elegant-lightblue.css";
+@import url("darktable-elegant-lightblue.css");
 
 @define-color blue_black #404040;
 @define-color blue_blacker #383838;

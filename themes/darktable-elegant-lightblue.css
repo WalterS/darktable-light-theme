@@ -1,21 +1,4 @@
-/*
-    This file is part of darktable,
-    copyright (c) 2019 Nicolas Auffray
-
-    darktable is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    darktable is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
-*/
-@import "darktable-elegant-dark.css";
+@import url("darktable-elegant-dark.css");
 
 @define-color blue_black #353b48 ;
 @define-color blue_blacker #2f3640;
@@ -114,23 +97,23 @@
 menu,
 menuitem arrow
 {
-  background-color: @menu_bg_color;
+    background-color: @menu_bg_color;
 }
 
 /* Adjust middle grey picker on levels and rgb levels modules to make it visible */
 #picker-grey
 {
-  color: @blue_light;
+    color: @blue_light;
 background-color:red;
 }
 #picker-white
 {
-  color: @blue_white;
+    color: @blue_white;
 }
 
 #picker-black
 {
-  color: @blue_darker;
+    color: @blue_darker;
 }
 
 /* deactivated switch buttons, make them less visible */
@@ -142,8 +125,8 @@ background-color:red;
 
 #history-button *
 {
-  color: shade(@plugin_fg_color, 0.6);
-  background-color: transparent;
+    color: shade(@plugin_fg_color, 0.6);
+    background-color: transparent;
 }
 
 button{
@@ -153,12 +136,12 @@ border-radius:3px;
 #view_dropdown menuitem:hover,
 #view_dropdown:hover
 {
-  background-color: @button_hover_bg;
+    background-color: @button_hover_bg;
 }
 
 #view_dropdown
 {
-  color: @button_hover_bg;
+    color: @button_hover_bg;
 }
 
 
@@ -217,21 +200,20 @@ box *
                  "Segoe UI Light", "Segoe UI",              /* Windows 10 default */
                  "SF Pro Display Light", "SF Pro Display",  /* Mac OS X default */
                  "Ubuntu Light", "Ubuntu",                  /* Ubuntu default */
-                 "Cantarell",                               /* Gnome default */ 
+                 "Cantarell",                               /* Gnome default */
                  sans-serif;                                /* default default */
-font-size:.991em;
+    font-size:.991em;
 }
 
 button,
 #section_label
 {
-    font-family: "Poppins medium", 
+    font-family: "Poppins medium",
                  "Segoe UI Semibold", "Segoe UI",
                  "SF Pro Display Medium", "SF Pro Display",
                  "Ubuntu Medium", "Ubuntu",
-                 "Cantarell", 
+                 "Cantarell",
                   sans-serif;
-
 }
 
 #iop-panel-label,
@@ -241,73 +223,69 @@ button,
                  "Segoe UI Condensed", "Segoe UI",
                  "SF Pro Display", "SF Pro Display",
                  "Ubuntu Condensed", "Ubuntu",
-                 "Cantarell", 
+                 "Cantarell",
                  sans-serif;
-font-size:1em;
-
+    font-size:1em;
 }
 
 notebook tabs,
 #modules-tabs,
 #blending-tabs
 {
-    font-family: "Poppins Regular", "Roboto", 
-                 "Segoe UI", 
-                 "SF Pro Text", 
+    font-family: "Poppins Regular", "Roboto",
+                 "Segoe UI",
+                 "SF Pro Text",
                  "Ubuntu",
-                 "Cantarell", 
+                 "Cantarell",
                   sans-serif;
-font-size:1.1em;
+    font-size:1.1em;
 }
 
 #modules-tabs button,
 #blending-tabs button
 {
-color: @fg_color;
-
+    color: @fg_color;
 }
 
 notebook tab label /* disabled tabs */
 {
-  color: shade(@button_bg, 0.65);
-  font-weight: bold;
+    color: shade(@button_bg, 0.65);
+    font-weight: bold;
 }
-
-
 
 #bauhaus-popup
 {
-  background-color: @tooltip_bg_color;
-  color: @bauhaus_fg;
+    background-color: @tooltip_bg_color;
+    color: @bauhaus_fg;
 }
 
 #bauhaus-popup:selected
 {
-  color: @bauhaus_fg_selected;
-  background-color: @bauhaus_fg_selected;
+    color: @bauhaus_fg_selected;
+    background-color: @bauhaus_fg_selected;
 }
 
 #bauhaus-popup:hover
 {
-  color: @blue_middler;
-  background-color: @bauhaus_fg_selected;
+    color: @blue_middler;
+    background-color: @bauhaus_fg_selected;
 }
 
 #bauhaus-popup:hover,
 #bauhaus-combobox:hover,
 #bauhaus-slider:hover
 {
-  color: @blue_middler;
-  background-color: @bauhaus_fg_selected;
+    color: @blue_middler;
+    background-color: @bauhaus_fg_selected;
 }
 
 /*
 #bauhaus-combobox,
 #bauhaus-slider
 {
-  min-height: 1em;
-  background-color: transparent;
-  color: @bauhaus_fg;
+    min-height: 1em;
+    background-color: transparent;
+    color: @bauhaus_fg;
 }
 */
 
@@ -316,25 +294,25 @@ notebook tab label /* disabled tabs */
 combobox,
 combobox button
 {
-  border: 0px solid transparent;
-  padding: 0px;
-  background-color: @button_bg;
-  border-radius: 2pt;
-  color: @bauhaus_fg;
-  outline-style: none;
-  min-height: 1em;
-  min-width: 1em;
+    border: 0px solid transparent;
+    padding: 0px;
+    background-color: @button_bg;
+    border-radius: 2pt;
+    color: @bauhaus_fg;
+    outline-style: none;
+    min-height: 1em;
+    min-width: 1em;
 }
 
 combobox entry
 {
-  margin: 0 0.5em;
+    margin: 0 0.5em;
 }
 
 combobox *
 {
-  min-height: 1em;
-  min-width: 1em;
+    min-height: 1em;
+    min-width: 1em;
 }
 
 context-menu,
@@ -347,91 +325,94 @@ popover,
 combobox window,
 dialog combobox window
 {
-  background-color: @tooltip_bg_color;
-  color: @tooltip_fg_color;
-  outline-style:none;
-  border-radius: 2pt;
-  border: 0;
-  outline-style: none;
-  min-height: 0.4em;
-  min-width: 0.4em;
-  padding: 0.4em;
+    background-color: @tooltip_bg_color;
+    color: @tooltip_fg_color;
+    outline-style:none;
+    border-radius: 2pt;
+    border: 0;
+    outline-style: none;
+    min-height: 0.4em;
+    min-width: 0.4em;
+    padding: 0.4em;
 }
 
 #view_dropdown,
 #view_label
 {
-  background-color: transparent;
-  outline-style:none;
-  border-radius: 2px;
-  padding: 1em 0.5em;
-  color: @section_label;
+    background-color: transparent;
+    outline-style:none;
+    border-radius: 2px;
+    padding: 1em 0.5em;
+    color: @section_label;
 }
 
-#view_label {
-  margin: 0.1em 0;
-  background-color: transparent;
+#view_label
+{
+    margin: 0.1em 0;
+    background-color: transparent;
 }
 
 menuitem button,
 popover button,
 tooltip button
 {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 menuitem check
 {
-  border-radius: 2px;
-  border: 1px solid shade(@tooltip_bg_color, 4);
-  min-width: 10px;
-  min-height: 10px;
-  margin-right: 5px;
+    border-radius: 2px;
+    border: 1px solid shade(@tooltip_bg_color, 4);
+    min-width: 10px;
+    min-height: 10px;
+    margin-right: 5px;
 }
 
 #header-toolbar combobox,
 #footer-toolbar combobox
 {
-  margin: 0 0.6em;
+    margin: 0 0.6em;
 }
 
 #module-preset-button,
 #module-reset-button ,
 #module-instance-button ,
 
-#module-collapse-button 
+#module-collapse-button
 {
-border:.2em solid transparent;
- color:@blue_black;
+    border:.2em solid transparent;
+    color:@blue_black;
 }
 
-#module-enable-button {
-border:.3em solid transparent;
+#module-enable-button
+{
+    border:.3em solid transparent;
 }
 
-#module-enable-button:checked   {
-color:@button_checked_fg;
+#module-enable-button:checked
+{
+    color:@button_checked_fg;
 }
 
 #iop-panel-label,
 #lib-panel-label
 {
-  background-color: transparent;
-  color: @plugin_label_color;
-  border:0;
-  padding: 0 2pt 2pt 0.5em;
+    background-color: transparent;
+    color: @plugin_label_color;
+    border:0;
+    padding: 0 2pt 2pt 0.5em;
 }
 
 treeview,
 filechooserwidget treeview
 {
-  background-color: @blue_whiter;
-  color: @button_fg;
+    background-color: @blue_whiter;
+    color: @button_fg;
 }
 
 dialog,
 filechooserdialog
 {
-  background-color: @plugin_bg_color;
-  color: @plugin_fg_color;
+    background-color: @plugin_bg_color;
+    color: @plugin_fg_color;
 }
